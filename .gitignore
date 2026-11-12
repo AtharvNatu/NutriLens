@@ -7,3 +7,6 @@ Config/Signing.local.xcconfig
 
 # SwiftPM build output
 .build/
+
+# Private notes (not published)
+DEVELOPMENT-NOTES.md
