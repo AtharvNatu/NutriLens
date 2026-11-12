@@ -1,0 +1,4153 @@
+{
+  "version": 2,
+  "units": "Per 100 g as eaten (per 100 ml for drinks). Typical values; recipes vary.",
+  "sources": {
+    "protein": "Protein-Sources.pdf for the items marked proteinSource (midpoint of each range).",
+    "other": "Indian Food Composition Tables (IFCT 2017)-style typical values and standard home recipes."
+  },
+  "foods": [
+    {
+      "id": "kande_pohe",
+      "name": "Kande pohe",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 160,
+      "protein": 3.2,
+      "carbs": 25,
+      "fat": 5.3,
+      "servingGrams": 200,
+      "serving": "1 plate",
+      "aliases": [
+        "pohe",
+        "poha",
+        "kanda poha",
+        "batata pohe"
+      ]
+    },
+    {
+      "id": "dadpe_pohe",
+      "name": "Dadpe pohe",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 170,
+      "protein": 3,
+      "carbs": 26,
+      "fat": 6,
+      "servingGrams": 150,
+      "serving": "1 plate",
+      "aliases": []
+    },
+    {
+      "id": "upma",
+      "name": "Upma",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 150,
+      "protein": 3.5,
+      "carbs": 22,
+      "fat": 5.3,
+      "servingGrams": 200,
+      "serving": "1 plate",
+      "aliases": [
+        "rava upma",
+        "uppit"
+      ]
+    },
+    {
+      "id": "sheera",
+      "name": "Sheera",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 300,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 13,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "shira",
+        "sooji halwa",
+        "rava sheera"
+      ]
+    },
+    {
+      "id": "sabudana_khichdi",
+      "name": "Sabudana khichdi",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 205,
+      "protein": 3,
+      "carbs": 32,
+      "fat": 7.3,
+      "servingGrams": 200,
+      "serving": "1 plate",
+      "aliases": [
+        "sago khichdi"
+      ]
+    },
+    {
+      "id": "sabudana_vada",
+      "name": "Sabudana vada",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 300,
+      "protein": 4.5,
+      "carbs": 38,
+      "fat": 14.5,
+      "servingGrams": 50,
+      "serving": "1 vada",
+      "aliases": []
+    },
+    {
+      "id": "thalipeeth",
+      "name": "Thalipeeth (bhajani)",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 240,
+      "protein": 7.5,
+      "carbs": 33,
+      "fat": 8.5,
+      "servingGrams": 80,
+      "serving": "1 thalipeeth",
+      "aliases": [
+        "thalipith",
+        "Thalipeeth"
+      ]
+    },
+    {
+      "id": "misal",
+      "name": "Misal (without pav)",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 150,
+      "protein": 6.5,
+      "carbs": 15,
+      "fat": 7,
+      "servingGrams": 300,
+      "serving": "1 bowl",
+      "aliases": [
+        "misal usal",
+        "puneri misal",
+        "kolhapuri misal",
+        "Misal"
+      ]
+    },
+    {
+      "id": "misal_pav",
+      "name": "Misal pav",
+      "category": "breakfast",
+      "region": "mh",
+      "kcal": 173,
+      "protein": 6.9,
+      "carbs": 21.6,
+      "fat": 6.4,
+      "servingGrams": 370,
+      "serving": "1 plate (misal + 2 pav)",
+      "aliases": [],
+      "notes": "Misal 300 g + 2 pav."
+    },
+    {
+      "id": "vada_pav",
+      "name": "Vada pav",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 290,
+      "protein": 6.5,
+      "carbs": 40,
+      "fat": 11.5,
+      "servingGrams": 150,
+      "serving": "1 vada pav",
+      "aliases": [
+        "wada pav",
+        "vadapav"
+      ]
+    },
+    {
+      "id": "batata_vada",
+      "name": "Batata vada",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 260,
+      "protein": 4.5,
+      "carbs": 30,
+      "fat": 13.5,
+      "servingGrams": 70,
+      "serving": "1 vada",
+      "aliases": [
+        "aloo bonda",
+        "potato vada"
+      ]
+    },
+    {
+      "id": "pav_bhaji",
+      "name": "Pav bhaji",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 179,
+      "protein": 4,
+      "carbs": 21.8,
+      "fat": 8.5,
+      "servingGrams": 280,
+      "serving": "1 plate (bhaji + 2 buttered pav)",
+      "aliases": [
+        "pavbhaji"
+      ],
+      "notes": "Bhaji 200 g + 2 buttered pav."
+    },
+    {
+      "id": "bhaji_pav_bhaji",
+      "name": "Pav bhaji (bhaji only)",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 120,
+      "protein": 2.5,
+      "carbs": 13,
+      "fat": 6.5,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "Pav bhaji"
+      ]
+    },
+    {
+      "id": "pav",
+      "name": "Pav (ladi pav)",
+      "category": "bread",
+      "region": "mh",
+      "kcal": 270,
+      "protein": 8.5,
+      "carbs": 50,
+      "fat": 4,
+      "servingGrams": 35,
+      "serving": "1 pav",
+      "aliases": [
+        "dinner roll",
+        "bun",
+        "Pav"
+      ]
+    },
+    {
+      "id": "kanda_bhaji",
+      "name": "Kanda bhaji",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 320,
+      "protein": 7,
+      "carbs": 30,
+      "fat": 19,
+      "servingGrams": 80,
+      "serving": "4 pieces",
+      "aliases": [
+        "onion bhaji",
+        "onion pakoda",
+        "kanda bhajji"
+      ]
+    },
+    {
+      "id": "kothimbir_vadi",
+      "name": "Kothimbir vadi",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 230,
+      "protein": 7,
+      "carbs": 22,
+      "fat": 12.5,
+      "servingGrams": 50,
+      "serving": "2 pieces",
+      "aliases": []
+    },
+    {
+      "id": "alu_vadi",
+      "name": "Alu vadi",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 220,
+      "protein": 5,
+      "carbs": 24,
+      "fat": 11.5,
+      "servingGrams": 50,
+      "serving": "2 pieces",
+      "aliases": [
+        "patra",
+        "aluvadi"
+      ]
+    },
+    {
+      "id": "bhel",
+      "name": "Bhel puri",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 200,
+      "protein": 4.5,
+      "carbs": 32,
+      "fat": 6,
+      "servingGrams": 150,
+      "serving": "1 plate",
+      "aliases": [
+        "bhel"
+      ]
+    },
+    {
+      "id": "pani_puri",
+      "name": "Pani puri",
+      "category": "snack",
+      "region": "in",
+      "kcal": 160,
+      "protein": 3.5,
+      "carbs": 26,
+      "fat": 4.8,
+      "servingGrams": 120,
+      "serving": "6 puris",
+      "aliases": [
+        "golgappa",
+        "paani puri",
+        "panipuri",
+        "puchka"
+      ]
+    },
+    {
+      "id": "sev_puri",
+      "name": "Sev puri",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 260,
+      "protein": 5,
+      "carbs": 33,
+      "fat": 12,
+      "servingGrams": 120,
+      "serving": "1 plate",
+      "aliases": [
+        "dahi puri"
+      ]
+    },
+    {
+      "id": "dabeli",
+      "name": "Dabeli",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 250,
+      "protein": 5.5,
+      "carbs": 36,
+      "fat": 9.5,
+      "servingGrams": 120,
+      "serving": "1 dabeli",
+      "aliases": [
+        "kutchi dabeli"
+      ]
+    },
+    {
+      "id": "ragda_pattice",
+      "name": "Ragda pattice",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 170,
+      "protein": 5,
+      "carbs": 25,
+      "fat": 5.5,
+      "servingGrams": 250,
+      "serving": "1 plate",
+      "aliases": []
+    },
+    {
+      "id": "chivda",
+      "name": "Chivda (poha)",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 480,
+      "protein": 9,
+      "carbs": 52,
+      "fat": 26,
+      "servingGrams": 30,
+      "serving": "1 small katori",
+      "aliases": [
+        "poha chivda",
+        "namkeen",
+        "Chivda"
+      ]
+    },
+    {
+      "id": "chakli",
+      "name": "Chakli",
+      "category": "snack",
+      "region": "mh",
+      "kcal": 520,
+      "protein": 9,
+      "carbs": 55,
+      "fat": 29,
+      "servingGrams": 20,
+      "serving": "1 chakli",
+      "aliases": [
+        "murukku"
+      ]
+    },
+    {
+      "id": "shankarpali",
+      "name": "Shankarpali",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 500,
+      "protein": 7,
+      "carbs": 60,
+      "fat": 26,
+      "servingGrams": 30,
+      "serving": "a handful",
+      "aliases": []
+    },
+    {
+      "id": "poli",
+      "name": "Poli / chapati",
+      "category": "bread",
+      "region": "mh",
+      "kcal": 290,
+      "protein": 9,
+      "carbs": 54,
+      "fat": 4.5,
+      "servingGrams": 40,
+      "serving": "1 poli",
+      "aliases": [
+        "chapati",
+        "chapatti",
+        "roti",
+        "fulka",
+        "Poli"
+      ],
+      "notes": "Whole-wheat flatbread with a little oil."
+    },
+    {
+      "id": "phulka",
+      "name": "Phulka (no oil)",
+      "category": "bread",
+      "region": "in",
+      "kcal": 265,
+      "protein": 9,
+      "carbs": 54,
+      "fat": 1.5,
+      "servingGrams": 30,
+      "serving": "1 phulka",
+      "aliases": [
+        "Phulka"
+      ]
+    },
+    {
+      "id": "jowar_bhakri",
+      "name": "Jowar bhakri",
+      "category": "bread",
+      "region": "mh",
+      "kcal": 270,
+      "protein": 8.4,
+      "carbs": 57.5,
+      "fat": 1.5,
+      "servingGrams": 60,
+      "serving": "1 bhakri",
+      "aliases": [
+        "bhakri",
+        "jowar roti",
+        "jolada rotti"
+      ],
+      "notes": "About 80 % flour by weight; jowar protein from Protein-Sources.pdf."
+    },
+    {
+      "id": "bajra_bhakri",
+      "name": "Bajra bhakri",
+      "category": "bread",
+      "region": "mh",
+      "kcal": 288,
+      "protein": 9.2,
+      "carbs": 53.6,
+      "fat": 4,
+      "servingGrams": 60,
+      "serving": "1 bhakri",
+      "aliases": [
+        "bajra roti"
+      ],
+      "notes": "About 80 % flour by weight; bajra protein from Protein-Sources.pdf."
+    },
+    {
+      "id": "nachni_bhakri",
+      "name": "Nachni bhakri",
+      "category": "bread",
+      "region": "mh",
+      "kcal": 262,
+      "protein": 5.8,
+      "carbs": 57.6,
+      "fat": 1,
+      "servingGrams": 60,
+      "serving": "1 bhakri",
+      "aliases": [
+        "ragi roti",
+        "ragi bhakri"
+      ]
+    },
+    {
+      "id": "puran_poli",
+      "name": "Puran poli",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 300,
+      "protein": 6.5,
+      "carbs": 50,
+      "fat": 8.5,
+      "servingGrams": 80,
+      "serving": "1 puran poli",
+      "aliases": [
+        "holige",
+        "obbattu"
+      ]
+    },
+    {
+      "id": "varan",
+      "name": "Varan (plain toor dal)",
+      "category": "dal",
+      "region": "mh",
+      "kcal": 125,
+      "protein": 7.9,
+      "carbs": 20.7,
+      "fat": 0.6,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "varan"
+      ],
+      "notes": "Derived from toor dal in Protein-Sources.pdf (dry weight x 2.8 cooked)."
+    },
+    {
+      "id": "amti",
+      "name": "Amti (tempered dal)",
+      "category": "dal",
+      "region": "mh",
+      "kcal": 95,
+      "protein": 4.5,
+      "carbs": 12,
+      "fat": 3.2,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "katachi amti",
+        "goda masala dal",
+        "Amti"
+      ]
+    },
+    {
+      "id": "varan_bhaat",
+      "name": "Varan bhaat with ghee",
+      "category": "rice",
+      "region": "mh",
+      "kcal": 143,
+      "protein": 4.7,
+      "carbs": 24.6,
+      "fat": 2.4,
+      "servingGrams": 255,
+      "serving": "1 plate",
+      "aliases": [
+        "dal rice",
+        "dal chawal"
+      ],
+      "notes": "Rice 150 g + varan 100 g + 1 tsp ghee."
+    },
+    {
+      "id": "masale_bhaat",
+      "name": "Masale bhaat",
+      "category": "rice",
+      "region": "mh",
+      "kcal": 175,
+      "protein": 3.5,
+      "carbs": 27,
+      "fat": 6,
+      "servingGrams": 250,
+      "serving": "1 plate",
+      "aliases": [
+        "vangi bhaat"
+      ]
+    },
+    {
+      "id": "matki_usal",
+      "name": "Matki usal",
+      "category": "main",
+      "region": "mh",
+      "kcal": 135,
+      "protein": 6.5,
+      "carbs": 15,
+      "fat": 5.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "usal",
+        "matki"
+      ]
+    },
+    {
+      "id": "moong_usal",
+      "name": "Moong usal",
+      "category": "main",
+      "region": "mh",
+      "kcal": 125,
+      "protein": 6.5,
+      "carbs": 14,
+      "fat": 4.8,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "sprouts usal"
+      ]
+    },
+    {
+      "id": "zunka",
+      "name": "Zunka",
+      "category": "main",
+      "region": "mh",
+      "kcal": 200,
+      "protein": 8,
+      "carbs": 16,
+      "fat": 11.5,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "jhunka"
+      ]
+    },
+    {
+      "id": "pithla",
+      "name": "Pithla",
+      "category": "main",
+      "region": "mh",
+      "kcal": 120,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 6.7,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "pitla",
+        "pithla bhakri"
+      ]
+    },
+    {
+      "id": "bharli_vangi",
+      "name": "Bharli vangi",
+      "category": "main",
+      "region": "mh",
+      "kcal": 140,
+      "protein": 3,
+      "carbs": 9,
+      "fat": 10.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "stuffed brinjal",
+        "bharwa baingan"
+      ]
+    },
+    {
+      "id": "batata_bhaji",
+      "name": "Batata bhaji (sukhi)",
+      "category": "main",
+      "region": "mh",
+      "kcal": 130,
+      "protein": 2,
+      "carbs": 17,
+      "fat": 6,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "aloo sabzi",
+        "potato bhaji",
+        "Batata bhaji"
+      ]
+    },
+    {
+      "id": "kobi_bhaji",
+      "name": "Kobi bhaji",
+      "category": "main",
+      "region": "mh",
+      "kcal": 75,
+      "protein": 1.8,
+      "carbs": 7,
+      "fat": 4.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "cabbage sabzi"
+      ]
+    },
+    {
+      "id": "methi_bhaji",
+      "name": "Methi bhaji",
+      "category": "main",
+      "region": "mh",
+      "kcal": 90,
+      "protein": 3.5,
+      "carbs": 7,
+      "fat": 5.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "methi sabzi"
+      ]
+    },
+    {
+      "id": "palak_bhaji",
+      "name": "Palak bhaji",
+      "category": "main",
+      "region": "mh",
+      "kcal": 80,
+      "protein": 3,
+      "carbs": 6,
+      "fat": 5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "palak sabzi",
+        "spinach bhaji"
+      ]
+    },
+    {
+      "id": "bhendi_bhaji",
+      "name": "Bhendi bhaji",
+      "category": "main",
+      "region": "mh",
+      "kcal": 110,
+      "protein": 2.2,
+      "carbs": 9,
+      "fat": 7.3,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "bhindi",
+        "okra sabzi"
+      ]
+    },
+    {
+      "id": "kadhi_mh",
+      "name": "Kadhi (Maharashtrian)",
+      "category": "dal",
+      "region": "mh",
+      "kcal": 60,
+      "protein": 2.5,
+      "carbs": 5,
+      "fat": 3.3,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "kadhi",
+        "taak kadhi"
+      ]
+    },
+    {
+      "id": "sol_kadhi",
+      "name": "Sol kadhi",
+      "category": "drink",
+      "region": "mh",
+      "kcal": 60,
+      "protein": 0.8,
+      "carbs": 3.5,
+      "fat": 4.8,
+      "servingGrams": 200,
+      "serving": "1 glass",
+      "aliases": [
+        "solkadhi"
+      ]
+    },
+    {
+      "id": "thecha",
+      "name": "Thecha",
+      "category": "side",
+      "region": "mh",
+      "kcal": 180,
+      "protein": 4,
+      "carbs": 9,
+      "fat": 14.5,
+      "servingGrams": 15,
+      "serving": "1 tbsp",
+      "aliases": [
+        "mirchi thecha"
+      ]
+    },
+    {
+      "id": "shengdana_chutney",
+      "name": "Shengdana chutney (dry)",
+      "category": "side",
+      "region": "mh",
+      "kcal": 520,
+      "protein": 22,
+      "carbs": 20,
+      "fat": 40,
+      "servingGrams": 10,
+      "serving": "1 tbsp",
+      "aliases": [
+        "peanut chutney",
+        "Shengdana chutney"
+      ]
+    },
+    {
+      "id": "koshimbir",
+      "name": "Koshimbir",
+      "category": "side",
+      "region": "mh",
+      "kcal": 60,
+      "protein": 2.5,
+      "carbs": 5,
+      "fat": 3.4,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "raita",
+        "cucumber salad"
+      ]
+    },
+    {
+      "id": "modak",
+      "name": "Ukadiche modak",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 230,
+      "protein": 3,
+      "carbs": 35,
+      "fat": 8.5,
+      "servingGrams": 40,
+      "serving": "1 modak",
+      "aliases": [
+        "modak"
+      ]
+    },
+    {
+      "id": "shrikhand",
+      "name": "Shrikhand",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 260,
+      "protein": 7,
+      "carbs": 38,
+      "fat": 9,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "amrakhand",
+      "name": "Amrakhand",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 250,
+      "protein": 6.5,
+      "carbs": 38,
+      "fat": 8,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "basundi",
+      "name": "Basundi",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 230,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 10.5,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "rabdi"
+      ]
+    },
+    {
+      "id": "aamras",
+      "name": "Aamras",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 80,
+      "protein": 0.6,
+      "carbs": 19.5,
+      "fat": 0.3,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "mango pulp"
+      ]
+    },
+    {
+      "id": "karanji",
+      "name": "Karanji",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 450,
+      "protein": 6,
+      "carbs": 50,
+      "fat": 25,
+      "servingGrams": 40,
+      "serving": "1 karanji",
+      "aliases": [
+        "gujiya"
+      ]
+    },
+    {
+      "id": "besan_ladoo",
+      "name": "Besan ladoo",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 500,
+      "protein": 9,
+      "carbs": 52,
+      "fat": 28.5,
+      "servingGrams": 40,
+      "serving": "1 ladoo",
+      "aliases": [
+        "ladoo",
+        "laddu"
+      ]
+    },
+    {
+      "id": "rava_ladoo",
+      "name": "Rava ladoo",
+      "category": "sweet",
+      "region": "mh",
+      "kcal": 430,
+      "protein": 6,
+      "carbs": 60,
+      "fat": 18.5,
+      "servingGrams": 40,
+      "serving": "1 ladoo",
+      "aliases": []
+    },
+    {
+      "id": "chicken_rassa",
+      "name": "Chicken rassa (Kolhapuri / Malvani)",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 165,
+      "protein": 14,
+      "carbs": 4,
+      "fat": 10.5,
+      "servingGrams": 250,
+      "serving": "1 bowl",
+      "aliases": [
+        "kombdi rassa",
+        "kolhapuri chicken",
+        "malvani chicken",
+        "Chicken rassa"
+      ]
+    },
+    {
+      "id": "tambda_rassa",
+      "name": "Tambda rassa",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 140,
+      "protein": 10,
+      "carbs": 3,
+      "fat": 9.8,
+      "servingGrams": 250,
+      "serving": "1 bowl",
+      "aliases": [
+        "mutton rassa"
+      ]
+    },
+    {
+      "id": "pandhra_rassa",
+      "name": "Pandhra rassa",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 110,
+      "protein": 7,
+      "carbs": 3,
+      "fat": 7.8,
+      "servingGrams": 250,
+      "serving": "1 bowl",
+      "aliases": []
+    },
+    {
+      "id": "mutton_curry",
+      "name": "Mutton curry / sukka",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 210,
+      "protein": 17,
+      "carbs": 4,
+      "fat": 14,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "mutton",
+        "mutton sukka",
+        "lamb curry",
+        "Mutton curry",
+        "sukka"
+      ]
+    },
+    {
+      "id": "surmai_fry",
+      "name": "Surmai fry",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 230,
+      "protein": 22,
+      "carbs": 6,
+      "fat": 13,
+      "servingGrams": 120,
+      "serving": "2 slices",
+      "aliases": [
+        "kingfish fry",
+        "fish fry"
+      ]
+    },
+    {
+      "id": "bombil_fry",
+      "name": "Bombil fry",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 250,
+      "protein": 15,
+      "carbs": 12,
+      "fat": 15.5,
+      "servingGrams": 100,
+      "serving": "1 portion",
+      "aliases": [
+        "bombay duck"
+      ]
+    },
+    {
+      "id": "kolambi_masala",
+      "name": "Kolambi masala",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 150,
+      "protein": 15,
+      "carbs": 5,
+      "fat": 7.8,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "prawn masala",
+        "prawns curry",
+        "shrimp curry"
+      ]
+    },
+    {
+      "id": "fish_curry",
+      "name": "Fish curry (Malvani)",
+      "category": "nonveg",
+      "region": "mh",
+      "kcal": 130,
+      "protein": 11,
+      "carbs": 4,
+      "fat": 7.8,
+      "servingGrams": 200,
+      "serving": "1 bowl",
+      "aliases": [
+        "fish curry",
+        "malvani fish curry"
+      ]
+    },
+    {
+      "id": "idli",
+      "name": "Idli",
+      "category": "breakfast",
+      "region": "in",
+      "kcal": 140,
+      "protein": 4.5,
+      "carbs": 29,
+      "fat": 0.5,
+      "servingGrams": 80,
+      "serving": "2 idlis",
+      "aliases": []
+    },
+    {
+      "id": "dosa",
+      "name": "Dosa (plain)",
+      "category": "breakfast",
+      "region": "in",
+      "kcal": 165,
+      "protein": 3.9,
+      "carbs": 29,
+      "fat": 3.7,
+      "servingGrams": 100,
+      "serving": "1 dosa",
+      "aliases": [
+        "plain dosa",
+        "Dosa"
+      ]
+    },
+    {
+      "id": "masala_dosa",
+      "name": "Masala dosa",
+      "category": "breakfast",
+      "region": "in",
+      "kcal": 190,
+      "protein": 3.8,
+      "carbs": 27,
+      "fat": 7.5,
+      "servingGrams": 180,
+      "serving": "1 dosa",
+      "aliases": []
+    },
+    {
+      "id": "uttapam",
+      "name": "Uttapam",
+      "category": "breakfast",
+      "region": "in",
+      "kcal": 170,
+      "protein": 4.5,
+      "carbs": 27,
+      "fat": 5,
+      "servingGrams": 150,
+      "serving": "1 uttapam",
+      "aliases": [
+        "uttappa"
+      ]
+    },
+    {
+      "id": "medu_vada",
+      "name": "Medu vada",
+      "category": "breakfast",
+      "region": "in",
+      "kcal": 300,
+      "protein": 9,
+      "carbs": 28,
+      "fat": 17,
+      "servingGrams": 50,
+      "serving": "1 vada",
+      "aliases": [
+        "vada",
+        "uddin vada"
+      ]
+    },
+    {
+      "id": "sambar",
+      "name": "Sambar",
+      "category": "dal",
+      "region": "in",
+      "kcal": 65,
+      "protein": 3,
+      "carbs": 9,
+      "fat": 2,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "coconut_chutney",
+      "name": "Coconut chutney",
+      "category": "side",
+      "region": "in",
+      "kcal": 200,
+      "protein": 3,
+      "carbs": 8,
+      "fat": 17.5,
+      "servingGrams": 30,
+      "serving": "2 tbsp",
+      "aliases": []
+    },
+    {
+      "id": "dal_tadka",
+      "name": "Dal tadka",
+      "category": "dal",
+      "region": "in",
+      "kcal": 120,
+      "protein": 6,
+      "carbs": 15,
+      "fat": 4,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "dal fry",
+        "dal"
+      ]
+    },
+    {
+      "id": "moong_dal_cooked",
+      "name": "Moong dal (cooked)",
+      "category": "dal",
+      "region": "in",
+      "kcal": 126,
+      "protein": 8.6,
+      "carbs": 21,
+      "fat": 0.5,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "yellow dal",
+        "Moong dal"
+      ],
+      "notes": "Derived from moong dal in Protein-Sources.pdf (dry weight x 2.8 cooked)."
+    },
+    {
+      "id": "masoor_dal_cooked",
+      "name": "Masoor dal tadka",
+      "category": "dal",
+      "region": "in",
+      "kcal": 120,
+      "protein": 7,
+      "carbs": 16,
+      "fat": 3.5,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [],
+      "notes": "Protein based on masoor dal in Protein-Sources.pdf."
+    },
+    {
+      "id": "dal_makhani",
+      "name": "Dal makhani",
+      "category": "dal",
+      "region": "in",
+      "kcal": 140,
+      "protein": 5.5,
+      "carbs": 13,
+      "fat": 7.5,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "rajma",
+      "name": "Rajma",
+      "category": "main",
+      "region": "in",
+      "kcal": 130,
+      "protein": 6,
+      "carbs": 16,
+      "fat": 4.5,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "rajma chawal"
+      ]
+    },
+    {
+      "id": "chole",
+      "name": "Chole",
+      "category": "main",
+      "region": "in",
+      "kcal": 155,
+      "protein": 6.5,
+      "carbs": 19,
+      "fat": 6,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "chana masala",
+        "chickpea curry"
+      ]
+    },
+    {
+      "id": "chole_bhature",
+      "name": "Chole bhature",
+      "category": "main",
+      "region": "in",
+      "kcal": 239,
+      "protein": 7.1,
+      "carbs": 29.7,
+      "fat": 10.3,
+      "servingGrams": 340,
+      "serving": "1 plate (chole + 2 bhature)",
+      "aliases": [
+        "cholebhature"
+      ]
+    },
+    {
+      "id": "bhatura",
+      "name": "Bhatura",
+      "category": "bread",
+      "region": "in",
+      "kcal": 360,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 16.5,
+      "servingGrams": 70,
+      "serving": "1 bhatura",
+      "aliases": [
+        "bhature"
+      ]
+    },
+    {
+      "id": "puri",
+      "name": "Puri",
+      "category": "bread",
+      "region": "in",
+      "kcal": 330,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 15,
+      "servingGrams": 25,
+      "serving": "1 puri",
+      "aliases": [
+        "poori"
+      ]
+    },
+    {
+      "id": "paratha",
+      "name": "Paratha (plain)",
+      "category": "bread",
+      "region": "in",
+      "kcal": 320,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 12,
+      "servingGrams": 70,
+      "serving": "1 paratha",
+      "aliases": [
+        "Paratha"
+      ]
+    },
+    {
+      "id": "aloo_paratha",
+      "name": "Aloo paratha",
+      "category": "bread",
+      "region": "in",
+      "kcal": 280,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 11.5,
+      "servingGrams": 120,
+      "serving": "1 paratha",
+      "aliases": []
+    },
+    {
+      "id": "paneer_paratha",
+      "name": "Paneer paratha",
+      "category": "bread",
+      "region": "in",
+      "kcal": 300,
+      "protein": 11,
+      "carbs": 33,
+      "fat": 13.5,
+      "servingGrams": 120,
+      "serving": "1 paratha",
+      "aliases": []
+    },
+    {
+      "id": "thepla",
+      "name": "Methi thepla",
+      "category": "bread",
+      "region": "in",
+      "kcal": 300,
+      "protein": 8,
+      "carbs": 40,
+      "fat": 12,
+      "servingGrams": 40,
+      "serving": "1 thepla",
+      "aliases": []
+    },
+    {
+      "id": "naan",
+      "name": "Naan / butter naan",
+      "category": "bread",
+      "region": "in",
+      "kcal": 300,
+      "protein": 9,
+      "carbs": 48,
+      "fat": 8,
+      "servingGrams": 90,
+      "serving": "1 naan",
+      "aliases": [
+        "butter naan",
+        "kulcha",
+        "Naan"
+      ]
+    },
+    {
+      "id": "paneer_butter_masala",
+      "name": "Paneer butter masala",
+      "category": "main",
+      "region": "in",
+      "kcal": 220,
+      "protein": 8.5,
+      "carbs": 8,
+      "fat": 17.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "paneer makhani",
+        "shahi paneer"
+      ]
+    },
+    {
+      "id": "kadai_paneer",
+      "name": "Kadai paneer",
+      "category": "main",
+      "region": "in",
+      "kcal": 200,
+      "protein": 9,
+      "carbs": 7,
+      "fat": 15,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "palak_paneer",
+      "name": "Palak paneer",
+      "category": "main",
+      "region": "in",
+      "kcal": 160,
+      "protein": 8,
+      "carbs": 6,
+      "fat": 11.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "paneer_bhurji",
+      "name": "Paneer bhurji",
+      "category": "main",
+      "region": "in",
+      "kcal": 240,
+      "protein": 14,
+      "carbs": 5,
+      "fat": 18.5,
+      "servingGrams": 120,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "paneer_tikka",
+      "name": "Paneer tikka",
+      "category": "main",
+      "region": "in",
+      "kcal": 250,
+      "protein": 15,
+      "carbs": 6,
+      "fat": 18.5,
+      "servingGrams": 120,
+      "serving": "6 pieces",
+      "aliases": []
+    },
+    {
+      "id": "soya_chunk_curry",
+      "name": "Soya chunk curry",
+      "category": "main",
+      "region": "in",
+      "kcal": 130,
+      "protein": 11,
+      "carbs": 9,
+      "fat": 5.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "soya curry",
+        "meal maker curry"
+      ],
+      "notes": "Protein based on soya chunks in Protein-Sources.pdf."
+    },
+    {
+      "id": "tofu_bhurji",
+      "name": "Tofu bhurji",
+      "category": "main",
+      "region": "in",
+      "kcal": 140,
+      "protein": 10,
+      "carbs": 4,
+      "fat": 9.5,
+      "servingGrams": 120,
+      "serving": "1 katori",
+      "aliases": [],
+      "notes": "Protein based on tofu in Protein-Sources.pdf."
+    },
+    {
+      "id": "aloo_gobi",
+      "name": "Aloo gobi",
+      "category": "main",
+      "region": "in",
+      "kcal": 110,
+      "protein": 2.5,
+      "carbs": 12,
+      "fat": 6,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "flower bhaji",
+        "cauliflower sabzi"
+      ]
+    },
+    {
+      "id": "mixed_veg",
+      "name": "Mixed vegetable curry",
+      "category": "main",
+      "region": "in",
+      "kcal": 100,
+      "protein": 2.5,
+      "carbs": 9,
+      "fat": 6,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "veg curry",
+        "sabzi"
+      ]
+    },
+    {
+      "id": "baingan_bharta",
+      "name": "Baingan bharta",
+      "category": "main",
+      "region": "in",
+      "kcal": 100,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 6.8,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "vangyache bharit",
+        "bharit"
+      ]
+    },
+    {
+      "id": "malai_kofta",
+      "name": "Malai kofta",
+      "category": "main",
+      "region": "in",
+      "kcal": 230,
+      "protein": 5,
+      "carbs": 14,
+      "fat": 17,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "kofta"
+      ]
+    },
+    {
+      "id": "khichdi",
+      "name": "Moong dal khichdi",
+      "category": "rice",
+      "region": "in",
+      "kcal": 130,
+      "protein": 4.5,
+      "carbs": 21,
+      "fat": 3.2,
+      "servingGrams": 250,
+      "serving": "1 plate",
+      "aliases": [
+        "khichadi"
+      ]
+    },
+    {
+      "id": "white_rice",
+      "name": "Rice, cooked (bhaat)",
+      "category": "rice",
+      "region": "basic",
+      "kcal": 130,
+      "protein": 2.7,
+      "carbs": 28,
+      "fat": 0.3,
+      "servingGrams": 160,
+      "serving": "1 katori",
+      "aliases": [
+        "rice",
+        "steamed rice",
+        "chawal",
+        "bhaat",
+        "Rice, cooked"
+      ]
+    },
+    {
+      "id": "jeera_rice",
+      "name": "Jeera rice",
+      "category": "rice",
+      "region": "in",
+      "kcal": 165,
+      "protein": 3,
+      "carbs": 30,
+      "fat": 3.8,
+      "servingGrams": 160,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "curd_rice",
+      "name": "Curd rice",
+      "category": "rice",
+      "region": "in",
+      "kcal": 125,
+      "protein": 3.5,
+      "carbs": 20,
+      "fat": 3.4,
+      "servingGrams": 200,
+      "serving": "1 plate",
+      "aliases": [
+        "dahi bhaat",
+        "thayir sadam"
+      ]
+    },
+    {
+      "id": "lemon_rice",
+      "name": "Lemon rice",
+      "category": "rice",
+      "region": "in",
+      "kcal": 170,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 5.2,
+      "servingGrams": 200,
+      "serving": "1 plate",
+      "aliases": [
+        "chitranna"
+      ]
+    },
+    {
+      "id": "veg_biryani",
+      "name": "Veg biryani / pulao",
+      "category": "rice",
+      "region": "in",
+      "kcal": 160,
+      "protein": 3.5,
+      "carbs": 26,
+      "fat": 4.8,
+      "servingGrams": 250,
+      "serving": "1 plate",
+      "aliases": [
+        "pulao",
+        "veg pulao",
+        "veg biryani"
+      ]
+    },
+    {
+      "id": "chicken_biryani",
+      "name": "Chicken biryani",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 170,
+      "protein": 9,
+      "carbs": 20,
+      "fat": 6,
+      "servingGrams": 350,
+      "serving": "1 plate",
+      "aliases": [
+        "biryani",
+        "dum biryani"
+      ]
+    },
+    {
+      "id": "chicken_curry",
+      "name": "Chicken curry (home style)",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 150,
+      "protein": 13,
+      "carbs": 5,
+      "fat": 9,
+      "servingGrams": 250,
+      "serving": "1 bowl",
+      "aliases": [
+        "chicken masala",
+        "curry",
+        "Chicken curry"
+      ]
+    },
+    {
+      "id": "butter_chicken",
+      "name": "Butter chicken",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 180,
+      "protein": 13,
+      "carbs": 6,
+      "fat": 11.5,
+      "servingGrams": 200,
+      "serving": "1 katori",
+      "aliases": [
+        "murgh makhani"
+      ]
+    },
+    {
+      "id": "tandoori_chicken",
+      "name": "Tandoori chicken",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 180,
+      "protein": 26,
+      "carbs": 3,
+      "fat": 7,
+      "servingGrams": 150,
+      "serving": "2 pieces",
+      "aliases": [
+        "chicken tikka",
+        "tikka",
+        "grilled chicken"
+      ]
+    },
+    {
+      "id": "chicken_65",
+      "name": "Chicken 65 / chicken fry",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 240,
+      "protein": 20,
+      "carbs": 10,
+      "fat": 13.5,
+      "servingGrams": 120,
+      "serving": "1 portion",
+      "aliases": [
+        "chicken fry",
+        "fried chicken",
+        "chicken wings",
+        "Chicken 65"
+      ]
+    },
+    {
+      "id": "egg_curry",
+      "name": "Egg curry",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 150,
+      "protein": 8,
+      "carbs": 5,
+      "fat": 11,
+      "servingGrams": 200,
+      "serving": "1 bowl (2 eggs)",
+      "aliases": [
+        "anda curry"
+      ]
+    },
+    {
+      "id": "egg_bhurji",
+      "name": "Egg bhurji",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 190,
+      "protein": 11,
+      "carbs": 4,
+      "fat": 14.5,
+      "servingGrams": 120,
+      "serving": "1 portion (2 eggs)",
+      "aliases": [
+        "anda bhurji",
+        "scrambled eggs"
+      ]
+    },
+    {
+      "id": "masala_omelette",
+      "name": "Masala omelette",
+      "category": "nonveg",
+      "region": "in",
+      "kcal": 180,
+      "protein": 11,
+      "carbs": 3,
+      "fat": 14,
+      "servingGrams": 120,
+      "serving": "2-egg omelette",
+      "aliases": [
+        "omelette",
+        "omelet"
+      ]
+    },
+    {
+      "id": "dhokla",
+      "name": "Dhokla",
+      "category": "snack",
+      "region": "in",
+      "kcal": 160,
+      "protein": 6,
+      "carbs": 25,
+      "fat": 4,
+      "servingGrams": 100,
+      "serving": "4 pieces",
+      "aliases": [
+        "khaman"
+      ]
+    },
+    {
+      "id": "kachori",
+      "name": "Kachori",
+      "category": "snack",
+      "region": "in",
+      "kcal": 400,
+      "protein": 8,
+      "carbs": 40,
+      "fat": 23,
+      "servingGrams": 60,
+      "serving": "1 kachori",
+      "aliases": []
+    },
+    {
+      "id": "samosa",
+      "name": "Samosa",
+      "category": "snack",
+      "region": "in",
+      "kcal": 260,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 14,
+      "servingGrams": 80,
+      "serving": "1 samosa",
+      "aliases": []
+    },
+    {
+      "id": "pakoda",
+      "name": "Pakoda / bhajji (mixed)",
+      "category": "snack",
+      "region": "in",
+      "kcal": 300,
+      "protein": 7,
+      "carbs": 28,
+      "fat": 18,
+      "servingGrams": 80,
+      "serving": "4 pieces",
+      "aliases": [
+        "pakode",
+        "pakora",
+        "bhajji",
+        "bhaji",
+        "Pakoda / bhajji",
+        "Pakoda"
+      ]
+    },
+    {
+      "id": "kathi_roll",
+      "name": "Kathi roll / frankie",
+      "category": "snack",
+      "region": "in",
+      "kcal": 230,
+      "protein": 9,
+      "carbs": 27,
+      "fat": 9.5,
+      "servingGrams": 180,
+      "serving": "1 roll",
+      "aliases": [
+        "frankie",
+        "kaathi roll",
+        "kathiroll",
+        "wrap",
+        "Kathi roll"
+      ]
+    },
+    {
+      "id": "momos_veg",
+      "name": "Momos (veg, steamed)",
+      "category": "snack",
+      "region": "in",
+      "kcal": 180,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 5,
+      "servingGrams": 150,
+      "serving": "6 momos",
+      "aliases": [
+        "momos",
+        "momo",
+        "dim sum"
+      ]
+    },
+    {
+      "id": "momos_chicken",
+      "name": "Momos (chicken, steamed)",
+      "category": "snack",
+      "region": "in",
+      "kcal": 200,
+      "protein": 10,
+      "carbs": 24,
+      "fat": 7,
+      "servingGrams": 150,
+      "serving": "6 momos",
+      "aliases": [
+        "Momos"
+      ]
+    },
+    {
+      "id": "veg_fried_rice",
+      "name": "Veg fried rice",
+      "category": "rice",
+      "region": "in",
+      "kcal": 170,
+      "protein": 3.5,
+      "carbs": 27,
+      "fat": 5.5,
+      "servingGrams": 250,
+      "serving": "1 plate",
+      "aliases": [
+        "fried rice",
+        "schezwan rice"
+      ],
+      "notes": "Indo-Chinese."
+    },
+    {
+      "id": "hakka_noodles",
+      "name": "Hakka noodles",
+      "category": "main",
+      "region": "in",
+      "kcal": 180,
+      "protein": 4.5,
+      "carbs": 28,
+      "fat": 5.8,
+      "servingGrams": 200,
+      "serving": "1 plate",
+      "aliases": [
+        "noodles",
+        "chowmein",
+        "schezwan noodles"
+      ],
+      "notes": "Indo-Chinese."
+    },
+    {
+      "id": "veg_manchurian",
+      "name": "Veg manchurian (gravy)",
+      "category": "main",
+      "region": "in",
+      "kcal": 150,
+      "protein": 3,
+      "carbs": 16,
+      "fat": 8.3,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "manchurian",
+        "gobi manchurian",
+        "Veg manchurian"
+      ],
+      "notes": "Indo-Chinese."
+    },
+    {
+      "id": "jalebi",
+      "name": "Jalebi",
+      "category": "sweet",
+      "region": "in",
+      "kcal": 450,
+      "protein": 3,
+      "carbs": 70,
+      "fat": 18,
+      "servingGrams": 50,
+      "serving": "2 pieces",
+      "aliases": []
+    },
+    {
+      "id": "gulab_jamun",
+      "name": "Gulab jamun",
+      "category": "sweet",
+      "region": "in",
+      "kcal": 330,
+      "protein": 4.5,
+      "carbs": 50,
+      "fat": 12.5,
+      "servingGrams": 50,
+      "serving": "1 piece",
+      "aliases": [
+        "gulabjam"
+      ]
+    },
+    {
+      "id": "kulfi",
+      "name": "Kulfi",
+      "category": "sweet",
+      "region": "in",
+      "kcal": 230,
+      "protein": 5.5,
+      "carbs": 25,
+      "fat": 12,
+      "servingGrams": 70,
+      "serving": "1 kulfi",
+      "aliases": []
+    },
+    {
+      "id": "kheer",
+      "name": "Kheer",
+      "category": "sweet",
+      "region": "in",
+      "kcal": 140,
+      "protein": 4,
+      "carbs": 21,
+      "fat": 4.5,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "payasam",
+        "rice kheer"
+      ]
+    },
+    {
+      "id": "gajar_halwa",
+      "name": "Gajar halwa",
+      "category": "sweet",
+      "region": "in",
+      "kcal": 250,
+      "protein": 4,
+      "carbs": 32,
+      "fat": 12,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "halwa"
+      ]
+    },
+    {
+      "id": "rasgulla",
+      "name": "Rasgulla",
+      "category": "sweet",
+      "region": "in",
+      "kcal": 186,
+      "protein": 4,
+      "carbs": 40,
+      "fat": 1.7,
+      "servingGrams": 50,
+      "serving": "1 piece",
+      "aliases": []
+    },
+    {
+      "id": "chai",
+      "name": "Chai (milk tea, with sugar)",
+      "category": "drink",
+      "region": "in",
+      "kcal": 70,
+      "protein": 2,
+      "carbs": 9,
+      "fat": 2.8,
+      "servingGrams": 120,
+      "serving": "1 cup",
+      "aliases": [
+        "tea",
+        "masala chai",
+        "cutting chai",
+        "Chai"
+      ]
+    },
+    {
+      "id": "filter_coffee",
+      "name": "Coffee (with milk & sugar)",
+      "category": "drink",
+      "region": "in",
+      "kcal": 60,
+      "protein": 2,
+      "carbs": 7.5,
+      "fat": 2.4,
+      "servingGrams": 120,
+      "serving": "1 cup",
+      "aliases": [
+        "coffee",
+        "filter coffee"
+      ]
+    },
+    {
+      "id": "coffee_buffalo_milk",
+      "name": "Coffee",
+      "category": "drink",
+      "region": "mh",
+      "kcal": 93.2,
+      "protein": 3.69,
+      "carbs": 7.15,
+      "fat": 5.5,
+      "servingGrams": 140,
+      "serving": "1 cup",
+      "aliases": [
+        "my coffee",
+        "coffee no sugar",
+        "unsweetened coffee",
+        "coffee with buffalo milk",
+        "chitale coffee",
+        "coffee with buffalo milk no sugar"
+      ],
+      "notes": "5 g coffee powder dissolved in 1 tbsp water, topped with Chitale buffalo milk. Set the milk each time."
+    },
+    {
+      "id": "lassi",
+      "name": "Lassi (sweet)",
+      "category": "drink",
+      "region": "in",
+      "kcal": 100,
+      "protein": 3,
+      "carbs": 15,
+      "fat": 3,
+      "servingGrams": 250,
+      "serving": "1 glass",
+      "aliases": [
+        "milkshake",
+        "Lassi"
+      ]
+    },
+    {
+      "id": "nimbu_pani",
+      "name": "Nimbu sarbat",
+      "category": "drink",
+      "region": "mh",
+      "kcal": 30,
+      "protein": 0,
+      "carbs": 7.5,
+      "fat": 0,
+      "servingGrams": 250,
+      "serving": "1 glass",
+      "aliases": [
+        "lemonade",
+        "nimbu pani"
+      ]
+    },
+    {
+      "id": "kokum_sarbat",
+      "name": "Kokum sarbat",
+      "category": "drink",
+      "region": "mh",
+      "kcal": 45,
+      "protein": 0.1,
+      "carbs": 11,
+      "fat": 0,
+      "servingGrams": 200,
+      "serving": "1 glass",
+      "aliases": [
+        "kokum"
+      ]
+    },
+    {
+      "id": "sugarcane_juice",
+      "name": "Sugarcane juice",
+      "category": "drink",
+      "region": "mh",
+      "kcal": 70,
+      "protein": 0.2,
+      "carbs": 17.5,
+      "fat": 0.1,
+      "servingGrams": 250,
+      "serving": "1 glass",
+      "aliases": [
+        "ganne ka ras",
+        "juice"
+      ]
+    },
+    {
+      "id": "coconut_water",
+      "name": "Coconut water",
+      "category": "drink",
+      "region": "basic",
+      "kcal": 19,
+      "protein": 0.7,
+      "carbs": 3.7,
+      "fat": 0.2,
+      "servingGrams": 250,
+      "serving": "1 coconut",
+      "aliases": [
+        "tender coconut"
+      ]
+    },
+    {
+      "id": "milk_cow",
+      "name": "Milk (cow, toned)",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 58,
+      "protein": 3.2,
+      "carbs": 4.7,
+      "fat": 3,
+      "servingGrams": 250,
+      "serving": "1 glass (250 ml)",
+      "aliases": [
+        "milk"
+      ],
+      "gramsPerMl": 1
+    },
+    {
+      "id": "whey_protein",
+      "name": "Whey protein (powder)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 380,
+      "protein": 78,
+      "carbs": 8,
+      "fat": 5,
+      "servingGrams": 30,
+      "serving": "1 scoop",
+      "aliases": [
+        "protein shake",
+        "whey",
+        "Whey protein"
+      ],
+      "notes": "Check your product's label."
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 89,
+      "protein": 1.1,
+      "carbs": 23,
+      "fat": 0.3,
+      "servingGrams": 120,
+      "serving": "1 medium",
+      "aliases": [
+        "kela"
+      ]
+    },
+    {
+      "id": "english_cucumber",
+      "name": "English cucumber (raw)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 16,
+      "protein": 0.7,
+      "carbs": 3.6,
+      "fat": 0.1,
+      "servingGrams": 150,
+      "serving": "½ cucumber",
+      "aliases": [
+        "cucumber",
+        "kakdi",
+        "kakadi",
+        "kheera",
+        "khira",
+        "seedless cucumber"
+      ],
+      "notes": "Raw, with peel. A whole English cucumber is about 300 g."
+    },
+    {
+      "id": "tomato_raw",
+      "name": "Tomato (raw)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 18,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "servingGrams": 100,
+      "serving": "1 medium",
+      "aliases": [
+        "tomato",
+        "tamatar",
+        "tomatoes"
+      ],
+      "notes": "Raw."
+    },
+    {
+      "id": "carrot_raw",
+      "name": "Carrot (raw)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 41,
+      "protein": 0.9,
+      "carbs": 9.6,
+      "fat": 0.2,
+      "servingGrams": 70,
+      "serving": "1 medium",
+      "aliases": [
+        "carrot",
+        "gajar",
+        "carrots"
+      ],
+      "notes": "Raw."
+    },
+    {
+      "id": "beetroot_raw",
+      "name": "Beetroot (raw)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 43,
+      "protein": 1.6,
+      "carbs": 9.6,
+      "fat": 0.2,
+      "servingGrams": 80,
+      "serving": "1 small",
+      "aliases": [
+        "beetroot",
+        "beet",
+        "chukandar",
+        "beets"
+      ],
+      "notes": "Raw."
+    },
+    {
+      "id": "onion_raw",
+      "name": "Onion (raw)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 40,
+      "protein": 1.1,
+      "carbs": 9.3,
+      "fat": 0.1,
+      "servingGrams": 100,
+      "serving": "1 medium",
+      "aliases": [
+        "onion",
+        "kanda",
+        "pyaz",
+        "pyaaz",
+        "onions"
+      ],
+      "notes": "Raw."
+    },
+    {
+      "id": "plum",
+      "name": "Plum",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 46,
+      "protein": 0.7,
+      "carbs": 11.4,
+      "fat": 0.3,
+      "servingGrams": 65,
+      "serving": "1 medium",
+      "aliases": [
+        "aloo bukhara",
+        "alubukhara",
+        "plums"
+      ]
+    },
+    {
+      "id": "dragon_fruit_white",
+      "name": "Dragon fruit (white flesh)",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 60,
+      "protein": 1.2,
+      "carbs": 13,
+      "fat": 0.4,
+      "servingGrams": 150,
+      "serving": "½ fruit",
+      "aliases": [
+        "dragon fruit",
+        "white dragon fruit",
+        "pitaya",
+        "kamalam"
+      ],
+      "notes": "Flesh only. A medium fruit has about 300 g of flesh."
+    },
+    {
+      "id": "mandarin",
+      "name": "Mandarin (Nagpur santra / kinnow)",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 53,
+      "protein": 0.8,
+      "carbs": 13.3,
+      "fat": 0.3,
+      "servingGrams": 100,
+      "serving": "1 medium (peeled)",
+      "aliases": [
+        "mandarin",
+        "mandarine",
+        "tangerine",
+        "clementine",
+        "kinnow",
+        "nagpur orange",
+        "nagpur santra",
+        "santra"
+      ]
+    },
+    {
+      "id": "jackfruit",
+      "name": "Jackfruit (ripe)",
+      "category": "fruit",
+      "region": "mh",
+      "kcal": 95,
+      "protein": 1.7,
+      "carbs": 23,
+      "fat": 0.6,
+      "servingGrams": 100,
+      "serving": "5 bulbs (gare)",
+      "aliases": [
+        "phanas",
+        "kathal",
+        "jack fruit",
+        "fanas"
+      ],
+      "notes": "Ripe bulbs without seeds."
+    },
+    {
+      "id": "mango",
+      "name": "Mango (Alphonso)",
+      "category": "fruit",
+      "region": "mh",
+      "kcal": 60,
+      "protein": 0.8,
+      "carbs": 15,
+      "fat": 0.4,
+      "servingGrams": 150,
+      "serving": "1 medium (flesh)",
+      "aliases": [
+        "hapus",
+        "aamba",
+        "Mango"
+      ]
+    },
+    {
+      "id": "papaya",
+      "name": "Papaya",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 43,
+      "protein": 0.5,
+      "carbs": 11,
+      "fat": 0.3,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": []
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 68,
+      "protein": 2.6,
+      "carbs": 14,
+      "fat": 1,
+      "servingGrams": 100,
+      "serving": "1 medium",
+      "aliases": [
+        "peru"
+      ]
+    },
+    {
+      "id": "chikoo",
+      "name": "Chikoo",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 83,
+      "protein": 0.4,
+      "carbs": 20,
+      "fat": 1.1,
+      "servingGrams": 100,
+      "serving": "1 medium",
+      "aliases": [
+        "sapota"
+      ]
+    },
+    {
+      "id": "pomegranate",
+      "name": "Pomegranate",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 83,
+      "protein": 1.7,
+      "carbs": 19,
+      "fat": 1.2,
+      "servingGrams": 100,
+      "serving": "1 katori seeds",
+      "aliases": [
+        "anar"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 52,
+      "protein": 0.3,
+      "carbs": 14,
+      "fat": 0.2,
+      "servingGrams": 180,
+      "serving": "1 medium",
+      "aliases": []
+    },
+    {
+      "id": "orange",
+      "name": "Orange / mosambi",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 47,
+      "protein": 0.9,
+      "carbs": 12,
+      "fat": 0.1,
+      "servingGrams": 130,
+      "serving": "1 medium",
+      "aliases": [
+        "santra",
+        "mosambi",
+        "citrus",
+        "Orange"
+      ]
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 69,
+      "protein": 0.7,
+      "carbs": 18,
+      "fat": 0.2,
+      "servingGrams": 150,
+      "serving": "1 katori",
+      "aliases": [
+        "grape"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 30,
+      "protein": 0.6,
+      "carbs": 7.6,
+      "fat": 0.2,
+      "servingGrams": 250,
+      "serving": "2 slices",
+      "aliases": [
+        "melon",
+        "kalingad"
+      ]
+    },
+    {
+      "id": "dates",
+      "name": "Dates (khajur)",
+      "category": "fruit",
+      "region": "basic",
+      "kcal": 282,
+      "protein": 2.5,
+      "carbs": 75,
+      "fat": 0.4,
+      "servingGrams": 24,
+      "serving": "3 dates",
+      "aliases": [
+        "khajur",
+        "Dates"
+      ]
+    },
+    {
+      "id": "green_salad",
+      "name": "Green salad / kachumber",
+      "category": "side",
+      "region": "basic",
+      "kcal": 20,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 0.2,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "salad",
+        "kachumber",
+        "cucumber",
+        "Green salad"
+      ]
+    },
+    {
+      "id": "ghee",
+      "name": "Ghee",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 900,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 99.8,
+      "servingGrams": 5,
+      "serving": "1 tsp",
+      "aliases": [
+        "tup",
+        "clarified butter"
+      ],
+      "gramsPerMl": 0.91
+    },
+    {
+      "id": "oil",
+      "name": "Cooking oil",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100,
+      "servingGrams": 5,
+      "serving": "1 tsp",
+      "aliases": [
+        "oil",
+        "tel",
+        "refined oil",
+        "sunflower oil",
+        "groundnut oil"
+      ],
+      "gramsPerMl": 0.92
+    },
+    {
+      "id": "instant_coffee_powder",
+      "name": "Coffee powder (instant / brew)",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 353,
+      "protein": 12.2,
+      "carbs": 75.4,
+      "fat": 0.5,
+      "servingGrams": 5,
+      "serving": "1 heaped tsp",
+      "aliases": [
+        "coffee powder",
+        "instant coffee",
+        "brew coffee powder",
+        "nescafe",
+        "bru"
+      ],
+      "notes": "Dissolved powder (USDA instant coffee). About 18 kcal in 5 g."
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 717,
+      "protein": 0.9,
+      "carbs": 0.1,
+      "fat": 81,
+      "servingGrams": 10,
+      "serving": "1 pat",
+      "aliases": [
+        "amul butter"
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 387,
+      "protein": 0,
+      "carbs": 100,
+      "fat": 0,
+      "servingGrams": 5,
+      "serving": "1 tsp",
+      "aliases": []
+    },
+    {
+      "id": "jaggery",
+      "name": "Jaggery (gul)",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 383,
+      "protein": 0.4,
+      "carbs": 95,
+      "fat": 0.1,
+      "servingGrams": 10,
+      "serving": "1 piece",
+      "aliases": [
+        "gul",
+        "gud",
+        "Jaggery"
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "category": "international",
+      "region": "intl",
+      "kcal": 266,
+      "protein": 11,
+      "carbs": 33,
+      "fat": 10,
+      "servingGrams": 107,
+      "serving": "1 slice",
+      "aliases": [
+        "pizza slice"
+      ]
+    },
+    {
+      "id": "burger",
+      "name": "Burger (veg)",
+      "category": "international",
+      "region": "intl",
+      "kcal": 250,
+      "protein": 7,
+      "carbs": 33,
+      "fat": 10,
+      "servingGrams": 150,
+      "serving": "1 burger",
+      "aliases": [
+        "hamburger",
+        "aloo tikki burger",
+        "chicken burger",
+        "Burger"
+      ]
+    },
+    {
+      "id": "veg_sandwich",
+      "name": "Veg grilled sandwich",
+      "category": "international",
+      "region": "intl",
+      "kcal": 230,
+      "protein": 7,
+      "carbs": 30,
+      "fat": 9,
+      "servingGrams": 150,
+      "serving": "1 sandwich",
+      "aliases": [
+        "sandwich",
+        "bombay sandwich"
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta (red sauce)",
+      "category": "international",
+      "region": "intl",
+      "kcal": 150,
+      "protein": 5,
+      "carbs": 24,
+      "fat": 3.8,
+      "servingGrams": 250,
+      "serving": "1 plate",
+      "aliases": [
+        "spaghetti",
+        "macaroni",
+        "Pasta"
+      ]
+    },
+    {
+      "id": "french_fries",
+      "name": "French fries",
+      "category": "international",
+      "region": "intl",
+      "kcal": 312,
+      "protein": 3.4,
+      "carbs": 41,
+      "fat": 15,
+      "servingGrams": 120,
+      "serving": "1 medium portion",
+      "aliases": [
+        "fries",
+        "finger chips"
+      ]
+    },
+    {
+      "id": "maggi",
+      "name": "Instant noodles (Maggi), cooked",
+      "category": "international",
+      "region": "intl",
+      "kcal": 130,
+      "protein": 3,
+      "carbs": 18,
+      "fat": 5.2,
+      "servingGrams": 240,
+      "serving": "1 pack cooked",
+      "aliases": [
+        "maggi",
+        "instant noodles",
+        "ramen",
+        "Instant noodles, cooked"
+      ]
+    },
+    {
+      "id": "white_bread",
+      "name": "White bread",
+      "category": "bread",
+      "region": "basic",
+      "kcal": 265,
+      "protein": 9,
+      "carbs": 49,
+      "fat": 3.2,
+      "servingGrams": 30,
+      "serving": "1 slice",
+      "aliases": [
+        "bread",
+        "toast"
+      ]
+    },
+    {
+      "id": "brown_bread",
+      "name": "Brown / whole-wheat bread",
+      "category": "bread",
+      "region": "basic",
+      "kcal": 250,
+      "protein": 12.5,
+      "carbs": 43,
+      "fat": 3.5,
+      "servingGrams": 32,
+      "serving": "1 slice",
+      "aliases": [
+        "whole wheat bread",
+        "Brown",
+        "whole-wheat bread"
+      ]
+    },
+    {
+      "id": "oats_porridge",
+      "name": "Oats porridge (with milk)",
+      "category": "breakfast",
+      "region": "basic",
+      "kcal": 110,
+      "protein": 4.5,
+      "carbs": 16,
+      "fat": 3.2,
+      "servingGrams": 250,
+      "serving": "1 bowl",
+      "aliases": [
+        "oatmeal",
+        "oats",
+        "porridge",
+        "Oats porridge"
+      ]
+    },
+    {
+      "id": "cornflakes",
+      "name": "Cornflakes (dry)",
+      "category": "breakfast",
+      "region": "basic",
+      "kcal": 370,
+      "protein": 7,
+      "carbs": 84,
+      "fat": 0.9,
+      "servingGrams": 30,
+      "serving": "1 bowl (dry)",
+      "aliases": [
+        "cereal",
+        "Cornflakes"
+      ]
+    },
+    {
+      "id": "parle_g",
+      "name": "Glucose biscuits (Parle-G)",
+      "category": "snack",
+      "region": "basic",
+      "kcal": 450,
+      "protein": 7,
+      "carbs": 76,
+      "fat": 13,
+      "servingGrams": 25,
+      "serving": "4 biscuits",
+      "aliases": [
+        "biscuit",
+        "parle g",
+        "cookie",
+        "Glucose biscuits"
+      ]
+    },
+    {
+      "id": "cake",
+      "name": "Cake (sponge / cream)",
+      "category": "sweet",
+      "region": "intl",
+      "kcal": 370,
+      "protein": 5,
+      "carbs": 50,
+      "fat": 17,
+      "servingGrams": 80,
+      "serving": "1 slice",
+      "aliases": [
+        "birthday cake",
+        "pastry",
+        "cupcake",
+        "Cake"
+      ]
+    },
+    {
+      "id": "ice_cream",
+      "name": "Ice cream",
+      "category": "sweet",
+      "region": "intl",
+      "kcal": 207,
+      "protein": 3.5,
+      "carbs": 24,
+      "fat": 11,
+      "servingGrams": 70,
+      "serving": "1 scoop",
+      "aliases": [
+        "icecream",
+        "sundae"
+      ]
+    },
+    {
+      "id": "chocolate",
+      "name": "Milk chocolate",
+      "category": "sweet",
+      "region": "intl",
+      "kcal": 535,
+      "protein": 7.6,
+      "carbs": 59,
+      "fat": 30,
+      "servingGrams": 25,
+      "serving": "1 small bar",
+      "aliases": [
+        "dairy milk"
+      ]
+    },
+    {
+      "id": "cheese_slice",
+      "name": "Cheese slice",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 300,
+      "protein": 18,
+      "carbs": 6,
+      "fat": 23,
+      "servingGrams": 20,
+      "serving": "1 slice",
+      "aliases": [
+        "cheese",
+        "processed cheese"
+      ]
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut butter",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 588,
+      "protein": 25,
+      "carbs": 20,
+      "fat": 50,
+      "servingGrams": 32,
+      "serving": "2 tbsp",
+      "aliases": []
+    },
+    {
+      "id": "egg",
+      "name": "Egg (whole)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 143,
+      "protein": 13,
+      "carbs": 0.7,
+      "fat": 9.5,
+      "servingGrams": 50,
+      "serving": "1 egg",
+      "aliases": [
+        "egg",
+        "eggs",
+        "boiled egg",
+        "anda",
+        "poached egg"
+      ],
+      "notes": "1 egg ≈ 6–7 g protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "egg_white",
+      "name": "Egg white",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 52,
+      "protein": 10.9,
+      "carbs": 0.7,
+      "fat": 0.2,
+      "servingGrams": 33,
+      "serving": "1 egg white",
+      "aliases": [
+        "egg whites",
+        "anda safedi",
+        "white of egg"
+      ],
+      "notes": "1 large egg white ≈ 3.6 g protein, almost no fat."
+    },
+    {
+      "id": "egg_half_fry",
+      "name": "Egg half fry (sunny side up)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 178,
+      "protein": 12.4,
+      "carbs": 0.7,
+      "fat": 13.8,
+      "servingGrams": 52.5,
+      "serving": "1 egg",
+      "aliases": [
+        "half fry",
+        "egg half fry",
+        "sunny side up",
+        "fried egg",
+        "bulls eye",
+        "anda half fry",
+        "half fried egg"
+      ],
+      "notes": "1 egg fried in ½ tsp oil; set the eggs and oil when logging."
+    },
+    {
+      "id": "egg_full_fry",
+      "name": "Egg full fry (over hard)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 178,
+      "protein": 12.4,
+      "carbs": 0.7,
+      "fat": 13.8,
+      "servingGrams": 52.5,
+      "serving": "1 egg",
+      "aliases": [
+        "full fry",
+        "egg full fry",
+        "over hard",
+        "over easy",
+        "anda full fry"
+      ],
+      "notes": "1 egg fried in ½ tsp oil; set the eggs and oil when logging."
+    },
+    {
+      "id": "chicken_raw",
+      "name": "Chicken (raw)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 130,
+      "protein": 27,
+      "carbs": 0,
+      "fat": 2.5,
+      "servingGrams": 150,
+      "serving": "1 portion (raw)",
+      "aliases": [
+        "raw chicken",
+        "Chicken",
+        "chicken mince",
+        "minced chicken",
+        "raw chicken mince",
+        "chicken keema raw"
+      ],
+      "notes": "Lean cuts preferred.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "chicken_cooked",
+      "name": "Chicken (cooked, lean)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 165,
+      "protein": 31,
+      "carbs": 0,
+      "fat": 3.6,
+      "servingGrams": 120,
+      "serving": "1 portion",
+      "aliases": [
+        "chicken",
+        "chicken breast",
+        "boiled chicken"
+      ],
+      "notes": "Higher concentration once cooked.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "buffalo_milk",
+      "name": "Buffalo milk (Chitale)",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 94,
+      "protein": 3.8,
+      "carbs": 5.2,
+      "fat": 6.4,
+      "servingGrams": 250,
+      "serving": "1 glass (250 ml)",
+      "aliases": [
+        "buffalo milk",
+        "chitale milk",
+        "full cream milk",
+        "chitale buffalo milk",
+        "chitale full cream milk"
+      ],
+      "notes": "Chitale full cream (buffalo) milk, per 100 ml. Protein-Sources.pdf said 4–4.5 g protein.",
+      "gramsPerMl": 1,
+      "proteinSource": "Chitale pack label"
+    },
+    {
+      "id": "curd",
+      "name": "Curd (dahi)",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 62,
+      "protein": 3.5,
+      "carbs": 4.5,
+      "fat": 3.3,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "dahi",
+        "yogurt",
+        "yoghurt",
+        "Curd"
+      ],
+      "notes": "Standard curd.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "chakka",
+      "name": "Hung curd (chakka)",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 110,
+      "protein": 9.5,
+      "carbs": 4,
+      "fat": 6.5,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "hung curd",
+        "greek yogurt"
+      ],
+      "notes": "Strained, high protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "paneer",
+      "name": "Paneer",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 290,
+      "protein": 19,
+      "carbs": 3.5,
+      "fat": 22.5,
+      "servingGrams": 100,
+      "serving": "1 portion",
+      "aliases": [
+        "cottage cheese"
+      ],
+      "notes": "Dense protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "buttermilk",
+      "name": "Buttermilk (taak)",
+      "category": "dairy",
+      "region": "basic",
+      "kcal": 30,
+      "protein": 1.5,
+      "carbs": 3,
+      "fat": 1.2,
+      "servingGrams": 250,
+      "serving": "1 glass",
+      "aliases": [
+        "taak",
+        "chaas",
+        "masala chaas",
+        "Buttermilk"
+      ],
+      "notes": "Hydration.",
+      "proteinSource": "Protein-Sources.pdf",
+      "gramsPerMl": 1
+    },
+    {
+      "id": "tofu",
+      "name": "Tofu",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 110,
+      "protein": 10,
+      "carbs": 2.5,
+      "fat": 6,
+      "servingGrams": 100,
+      "serving": "1 portion",
+      "aliases": [
+        "soya paneer"
+      ],
+      "notes": "Lean veg protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "soya_chunks_boiled",
+      "name": "Soya chunks (boiled)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 115,
+      "protein": 17,
+      "carbs": 11,
+      "fat": 0.2,
+      "servingGrams": 75,
+      "serving": "½ cup boiled",
+      "aliases": [
+        "soya chunks",
+        "boiled soya chunks",
+        "cooked soya chunks",
+        "soaked soya chunks",
+        "soya",
+        "soy chunks",
+        "meal maker",
+        "nutrela"
+      ],
+      "notes": "Boiled and squeezed, as added to dishes. Dry values from Protein-Sources.pdf ÷ 3 (25 g dry ≈ 75 g boiled).",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushrooms",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 28,
+      "protein": 3.5,
+      "carbs": 3.3,
+      "fat": 0.3,
+      "servingGrams": 100,
+      "serving": "1 cup",
+      "aliases": [
+        "mushroom"
+      ],
+      "notes": "Low-calorie protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "toor_dal",
+      "name": "Toor dal (dry)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 343,
+      "protein": 22,
+      "carbs": 58,
+      "fat": 1.5,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "toor dal",
+        "tur dal",
+        "arhar dal",
+        "pigeon pea"
+      ],
+      "notes": "Dry weight; cooked dal is lower per 100 g (see Varan).",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "moong_dal",
+      "name": "Moong dal (dry)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 348,
+      "protein": 24,
+      "carbs": 59,
+      "fat": 1.2,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "moong dal",
+        "mung dal"
+      ],
+      "notes": "Dry weight. Easy to digest.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "masoor_dal",
+      "name": "Masoor dal (dry)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 343,
+      "protein": 25,
+      "carbs": 57,
+      "fat": 1.1,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "masoor dal",
+        "red lentils"
+      ],
+      "notes": "Dry weight. Good option.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "moong_whole",
+      "name": "Moong, whole (dry, for sprouts)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 347,
+      "protein": 24,
+      "carbs": 59,
+      "fat": 1.2,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "green gram",
+        "Moong, whole"
+      ],
+      "notes": "Dry seed. PDF: moong sprouts ~24 g on dry weight; cooked lower.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "moong_sprouts",
+      "name": "Moong sprouts (ready to eat)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 139,
+      "protein": 9.6,
+      "carbs": 23.6,
+      "fat": 0.5,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "sprouts",
+        "moong sprouts",
+        "mung sprouts"
+      ],
+      "notes": "Derived: dry seed ≈ 2.5× weight after sprouting.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "matki_whole",
+      "name": "Matki (dry, for sprouts)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 343,
+      "protein": 23,
+      "carbs": 61,
+      "fat": 1.5,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "moth beans",
+        "Matki"
+      ],
+      "notes": "Dry seed. Maharashtrian staple.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "matki_sprouts",
+      "name": "Matki sprouts (ready to eat)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 137,
+      "protein": 9.2,
+      "carbs": 24.4,
+      "fat": 0.6,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "matki sprouts"
+      ],
+      "notes": "Derived: dry seed ≈ 2.5× weight after sprouting.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "chickpeas_dry",
+      "name": "Chickpeas / kabuli chana (dry)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 364,
+      "protein": 19,
+      "carbs": 61,
+      "fat": 6,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "kabuli chana",
+        "chickpeas",
+        "chole chana",
+        "Chickpeas / kabuli chana"
+      ],
+      "notes": "Dry weight; cooked lower.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "chickpeas_cooked",
+      "name": "Chickpeas, boiled",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 165,
+      "protein": 8.6,
+      "carbs": 27.7,
+      "fat": 2.7,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "boiled chana"
+      ],
+      "notes": "Derived: dry × 2.2 after boiling.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "kala_chana_dry",
+      "name": "Kala chana (dry)",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 360,
+      "protein": 20,
+      "carbs": 60,
+      "fat": 5,
+      "servingGrams": 30,
+      "serving": "1 serving dry",
+      "aliases": [
+        "kala chana",
+        "black chickpeas",
+        "harbhara"
+      ],
+      "notes": "Dry weight. High fibre.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "kala_chana_cooked",
+      "name": "Kala chana, boiled",
+      "category": "protein",
+      "region": "basic",
+      "kcal": 164,
+      "protein": 9.1,
+      "carbs": 27.3,
+      "fat": 2.3,
+      "servingGrams": 100,
+      "serving": "1 katori",
+      "aliases": [
+        "chana usal",
+        "boiled kala chana"
+      ],
+      "notes": "Derived: dry × 2.2 after boiling.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "peanuts",
+      "name": "Peanuts (shengdane)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 567,
+      "protein": 25.5,
+      "carbs": 16,
+      "fat": 49,
+      "servingGrams": 30,
+      "serving": "a handful",
+      "aliases": [
+        "shengdana",
+        "shengdane",
+        "groundnuts",
+        "peanut",
+        "Peanuts"
+      ],
+      "notes": "Budget protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds (badam)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 579,
+      "protein": 21,
+      "carbs": 22,
+      "fat": 50,
+      "servingGrams": 28,
+      "serving": "about 20 almonds",
+      "aliases": [
+        "badam",
+        "almond",
+        "nut",
+        "Almonds"
+      ],
+      "notes": "Healthy fats.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews (kaju)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 553,
+      "protein": 18,
+      "carbs": 30,
+      "fat": 44,
+      "servingGrams": 28,
+      "serving": "about 18 cashews",
+      "aliases": [
+        "kaju",
+        "cashew",
+        "Cashews"
+      ],
+      "notes": "Moderate protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts (akhrot)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 654,
+      "protein": 15,
+      "carbs": 14,
+      "fat": 65,
+      "servingGrams": 28,
+      "serving": "about 14 halves",
+      "aliases": [
+        "akhrot",
+        "walnut",
+        "Walnuts"
+      ],
+      "notes": "Omega-3.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "pistachios",
+      "name": "Pistachios (pista)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 560,
+      "protein": 20,
+      "carbs": 28,
+      "fat": 45,
+      "servingGrams": 28,
+      "serving": "a handful",
+      "aliases": [
+        "pista",
+        "pistachio",
+        "Pistachios"
+      ],
+      "notes": "Balanced.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "pumpkin_seeds",
+      "name": "Pumpkin seeds",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 559,
+      "protein": 30,
+      "carbs": 11,
+      "fat": 49,
+      "servingGrams": 20,
+      "serving": "2 tbsp",
+      "aliases": [
+        "pumpkin seed"
+      ],
+      "notes": "Very high protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "sunflower_seeds",
+      "name": "Sunflower seeds",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 584,
+      "protein": 20.5,
+      "carbs": 20,
+      "fat": 51.5,
+      "servingGrams": 20,
+      "serving": "2 tbsp",
+      "aliases": [
+        "sunflower seed"
+      ],
+      "notes": "Easy to add.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "watermelon_seeds",
+      "name": "Watermelon seeds (magaj)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 557,
+      "protein": 28.3,
+      "carbs": 15.3,
+      "fat": 47.4,
+      "servingGrams": 10,
+      "serving": "1 tbsp",
+      "aliases": [
+        "magaj",
+        "magaz",
+        "tarbooz ke beej",
+        "tarbuj beej",
+        "kalingad bee",
+        "melon seeds",
+        "watermelon seed"
+      ],
+      "notes": "Shelled and dried. High protein."
+    },
+    {
+      "id": "seed_nut_mix",
+      "name": "Seeds & nuts mix",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 577.9,
+      "protein": 22.3,
+      "carbs": 19.2,
+      "fat": 50.5,
+      "servingGrams": 30,
+      "serving": "1 meal's mix",
+      "aliases": [
+        "seed mix",
+        "nut mix",
+        "mixed nuts",
+        "mixed seeds",
+        "dry fruit mix",
+        "trail mix",
+        "sukha meva",
+        "daily mix"
+      ],
+      "notes": "Per meal: 5 g each pumpkin, sunflower and watermelon seeds, almonds and cashews; 4 g walnuts; 1 g pista. Adjust the amounts when you log it."
+    },
+    {
+      "id": "flax_seeds",
+      "name": "Flax seeds (javas)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 534,
+      "protein": 18,
+      "carbs": 29,
+      "fat": 42,
+      "servingGrams": 10,
+      "serving": "1 tbsp ground",
+      "aliases": [
+        "javas",
+        "alsi",
+        "flaxseed",
+        "linseed",
+        "Flax seeds"
+      ],
+      "notes": "Use ground.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "chia_seeds",
+      "name": "Chia seeds",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 486,
+      "protein": 16.5,
+      "carbs": 42,
+      "fat": 31,
+      "servingGrams": 12,
+      "serving": "1 tbsp",
+      "aliases": [
+        "chia"
+      ],
+      "notes": "Fibre rich.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "sesame_seeds",
+      "name": "Sesame seeds (til)",
+      "category": "nuts",
+      "region": "basic",
+      "kcal": 573,
+      "protein": 18,
+      "carbs": 23,
+      "fat": 50,
+      "servingGrams": 10,
+      "serving": "1 tbsp",
+      "aliases": [
+        "til",
+        "sesame",
+        "seed",
+        "Sesame seeds"
+      ],
+      "notes": "Common.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "wheat_atta",
+      "name": "Whole wheat (atta)",
+      "category": "grains",
+      "region": "basic",
+      "kcal": 340,
+      "protein": 12,
+      "carbs": 72,
+      "fat": 2,
+      "servingGrams": 30,
+      "serving": "1 serving flour",
+      "aliases": [
+        "atta",
+        "wheat flour",
+        "gahu",
+        "Whole wheat"
+      ],
+      "notes": "Secondary protein source.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "jowar_flour",
+      "name": "Jowar (flour)",
+      "category": "grains",
+      "region": "basic",
+      "kcal": 334,
+      "protein": 10.5,
+      "carbs": 72,
+      "fat": 1.8,
+      "servingGrams": 30,
+      "serving": "1 serving flour",
+      "aliases": [
+        "jowar",
+        "sorghum"
+      ],
+      "notes": "Carb base.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "bajra_flour",
+      "name": "Bajra (flour)",
+      "category": "grains",
+      "region": "basic",
+      "kcal": 360,
+      "protein": 11.5,
+      "carbs": 67,
+      "fat": 5,
+      "servingGrams": 30,
+      "serving": "1 serving flour",
+      "aliases": [
+        "bajra",
+        "pearl millet"
+      ],
+      "notes": "Slightly higher protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "brown_rice_raw",
+      "name": "Brown rice (raw)",
+      "category": "grains",
+      "region": "basic",
+      "kcal": 362,
+      "protein": 7.5,
+      "carbs": 76,
+      "fat": 2.7,
+      "servingGrams": 50,
+      "serving": "1 serving raw",
+      "aliases": [
+        "brown rice raw",
+        "Brown rice"
+      ],
+      "notes": "Low protein.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "brown_rice_cooked",
+      "name": "Brown rice, cooked",
+      "category": "rice",
+      "region": "basic",
+      "kcal": 123,
+      "protein": 2.6,
+      "carbs": 25.6,
+      "fat": 0.9,
+      "servingGrams": 160,
+      "serving": "1 katori",
+      "aliases": [
+        "brown rice"
+      ],
+      "notes": "Derived: raw × 2.9 after cooking.",
+      "proteinSource": "Protein-Sources.pdf"
+    },
+    {
+      "id": "besan",
+      "name": "Besan (gram flour)",
+      "category": "staple",
+      "region": "basic",
+      "kcal": 387,
+      "protein": 22.4,
+      "carbs": 57.8,
+      "fat": 6.7,
+      "servingGrams": 30,
+      "serving": "3 tbsp",
+      "aliases": [
+        "gram flour",
+        "chickpea flour",
+        "besan flour",
+        "chana flour"
+      ],
+      "notes": "Dry flour."
+    },
+    {
+      "id": "oats_rolled",
+      "name": "Rolled oats (dry)",
+      "category": "grains",
+      "region": "basic",
+      "kcal": 379,
+      "protein": 13.2,
+      "carbs": 67.7,
+      "fat": 6.5,
+      "servingGrams": 40,
+      "serving": "1/2 cup",
+      "aliases": [
+        "oats",
+        "rolled oats",
+        "quick oats",
+        "oatmeal dry"
+      ],
+      "notes": "Weighed dry, before cooking."
+    },
+    {
+      "id": "spinach_raw",
+      "name": "Spinach (palak), raw",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 23,
+      "protein": 2.9,
+      "carbs": 2,
+      "fat": 0.4,
+      "servingGrams": 100,
+      "serving": "2 cups leaves",
+      "aliases": [
+        "palak",
+        "spinach",
+        "palak leaves"
+      ]
+    },
+    {
+      "id": "capsicum_raw",
+      "name": "Capsicum (green), raw",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 20,
+      "protein": 0.9,
+      "carbs": 4,
+      "fat": 0.2,
+      "servingGrams": 100,
+      "serving": "1 medium",
+      "aliases": [
+        "capsicum",
+        "bell pepper",
+        "shimla mirch",
+        "green pepper",
+        "dhobli mirchi"
+      ]
+    },
+    {
+      "id": "green_peas",
+      "name": "Green peas (matar)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 81,
+      "protein": 5.4,
+      "carbs": 14.5,
+      "fat": 0.4,
+      "servingGrams": 80,
+      "serving": "1/2 cup",
+      "aliases": [
+        "matar",
+        "peas",
+        "vatana",
+        "frozen peas"
+      ],
+      "notes": "Fresh or frozen."
+    },
+    {
+      "id": "mixed_veg_raw",
+      "name": "Mixed vegetables (raw)",
+      "category": "vegetable",
+      "region": "basic",
+      "kcal": 43,
+      "protein": 2.3,
+      "carbs": 8.8,
+      "fat": 0.3,
+      "servingGrams": 50,
+      "serving": "½ cup chopped",
+      "aliases": [
+        "veggies",
+        "vegetables",
+        "mixed vegetables",
+        "mixed veggies",
+        "veg"
+      ],
+      "notes": "Carrot, beans, peas and capsicum, as added to pulao, upma or poha."
+    }
+  ],
+  "visionLabels": {
+    "banana": [
+      "banana"
+    ],
+    "bean": [
+      "rajma",
+      "matki_usal",
+      "moong_usal"
+    ],
+    "beet": [
+      "beetroot_raw"
+    ],
+    "birthday_cake": [
+      "cake"
+    ],
+    "biryani": [
+      "chicken_biryani",
+      "veg_biryani"
+    ],
+    "biscuit": [
+      "parle_g",
+      "shankarpali"
+    ],
+    "bread": [
+      "poli",
+      "jowar_bhakri",
+      "white_bread",
+      "pav"
+    ],
+    "burrito": [
+      "kathi_roll"
+    ],
+    "butter": [
+      "butter",
+      "ghee"
+    ],
+    "cake": [
+      "cake"
+    ],
+    "cake_regular": [
+      "cake"
+    ],
+    "candy": [
+      "besan_ladoo",
+      "jalebi"
+    ],
+    "carrot": [
+      "carrot_raw"
+    ],
+    "cashew": [
+      "cashews"
+    ],
+    "cauliflower": [
+      "aloo_gobi"
+    ],
+    "cereal": [
+      "cornflakes",
+      "chivda"
+    ],
+    "cheese": [
+      "paneer",
+      "cheese_slice"
+    ],
+    "chocolate": [
+      "chocolate"
+    ],
+    "citrus_fruit": [
+      "orange",
+      "mandarin"
+    ],
+    "coconut": [
+      "coconut_water",
+      "coconut_chutney"
+    ],
+    "coffee": [
+      "filter_coffee"
+    ],
+    "cookie": [
+      "parle_g",
+      "shankarpali"
+    ],
+    "crepe": [
+      "dosa",
+      "masala_dosa",
+      "uttapam"
+    ],
+    "cucumber": [
+      "english_cucumber",
+      "green_salad",
+      "koshimbir"
+    ],
+    "cupcake": [
+      "cake"
+    ],
+    "curry": [
+      "chicken_curry",
+      "paneer_butter_masala",
+      "chole",
+      "rajma",
+      "egg_curry",
+      "mixed_veg",
+      "dal_tadka"
+    ],
+    "dessert": [
+      "gulab_jamun",
+      "shrikhand",
+      "kheer",
+      "basundi"
+    ],
+    "dumpling": [
+      "modak",
+      "momos_veg",
+      "momos_chicken"
+    ],
+    "egg": [
+      "egg",
+      "egg_curry",
+      "egg_half_fry"
+    ],
+    "eggplant": [
+      "bharli_vangi",
+      "baingan_bharta"
+    ],
+    "fish": [
+      "surmai_fry",
+      "fish_curry",
+      "bombil_fry"
+    ],
+    "fried_chicken": [
+      "chicken_65",
+      "tandoori_chicken"
+    ],
+    "fried_egg": [
+      "masala_omelette",
+      "egg"
+    ],
+    "frozen_dessert": [
+      "kulfi",
+      "ice_cream"
+    ],
+    "fruit": [
+      "banana",
+      "papaya",
+      "guava",
+      "plum",
+      "dragon_fruit_white",
+      "mandarin"
+    ],
+    "grape": [
+      "grapes"
+    ],
+    "green_beans": [
+      "mixed_veg"
+    ],
+    "grilled_chicken": [
+      "tandoori_chicken",
+      "chicken_cooked"
+    ],
+    "guava": [
+      "guava"
+    ],
+    "hamburger": [
+      "vada_pav",
+      "burger",
+      "dabeli"
+    ],
+    "ice_cream": [
+      "ice_cream",
+      "kulfi"
+    ],
+    "juice": [
+      "sugarcane_juice",
+      "kokum_sarbat",
+      "nimbu_pani"
+    ],
+    "kebab": [
+      "tandoori_chicken",
+      "paneer_tikka"
+    ],
+    "mandarine": [
+      "mandarin",
+      "orange"
+    ],
+    "mango": [
+      "mango",
+      "aamras"
+    ],
+    "meat": [
+      "mutton_curry",
+      "tambda_rassa",
+      "chicken_rassa"
+    ],
+    "meatball": [
+      "malai_kofta"
+    ],
+    "melon": [
+      "watermelon"
+    ],
+    "milkshake": [
+      "lassi"
+    ],
+    "mushroom": [
+      "mushroom"
+    ],
+    "naan": [
+      "naan",
+      "poli",
+      "paratha",
+      "jowar_bhakri"
+    ],
+    "nut": [
+      "almonds",
+      "peanuts",
+      "cashews"
+    ],
+    "oatmeal": [
+      "oats_porridge",
+      "upma",
+      "kande_pohe"
+    ],
+    "onion": [
+      "onion_raw",
+      "kanda_bhaji"
+    ],
+    "oranges": [
+      "orange",
+      "mandarin"
+    ],
+    "pancake": [
+      "uttapam",
+      "thalipeeth",
+      "dosa"
+    ],
+    "papaya": [
+      "papaya"
+    ],
+    "pasta": [
+      "pasta",
+      "hakka_noodles",
+      "maggi"
+    ],
+    "pea": [
+      "chole",
+      "mixed_veg"
+    ],
+    "peanut": [
+      "peanuts"
+    ],
+    "pizza": [
+      "pizza"
+    ],
+    "plum": [
+      "plum"
+    ],
+    "pomegranate": [
+      "pomegranate"
+    ],
+    "popcorn": [
+      "chivda"
+    ],
+    "potato": [
+      "batata_bhaji",
+      "aloo_gobi",
+      "batata_vada"
+    ],
+    "pudding": [
+      "kheer",
+      "basundi",
+      "sheera"
+    ],
+    "rice": [
+      "varan_bhaat",
+      "white_rice",
+      "masale_bhaat",
+      "jeera_rice",
+      "veg_fried_rice"
+    ],
+    "salad": [
+      "koshimbir",
+      "green_salad",
+      "moong_sprouts"
+    ],
+    "samosa": [
+      "samosa",
+      "kachori"
+    ],
+    "sandwich": [
+      "veg_sandwich",
+      "vada_pav",
+      "dabeli"
+    ],
+    "scrambled_eggs": [
+      "egg_bhurji",
+      "masala_omelette",
+      "paneer_bhurji"
+    ],
+    "seed": [
+      "pumpkin_seeds",
+      "sesame_seeds",
+      "flax_seeds"
+    ],
+    "shellfish": [
+      "kolambi_masala"
+    ],
+    "shellfish_prepared": [
+      "kolambi_masala"
+    ],
+    "soup": [
+      "amti",
+      "sambar",
+      "dal_tadka",
+      "kadhi_mh"
+    ],
+    "spinach": [
+      "palak_paneer",
+      "palak_bhaji",
+      "methi_bhaji"
+    ],
+    "springroll": [
+      "kathi_roll"
+    ],
+    "sugar_cube": [
+      "sugar"
+    ],
+    "sunflower_seeds": [
+      "sunflower_seeds"
+    ],
+    "taco": [
+      "kathi_roll"
+    ],
+    "tea_drink": [
+      "chai"
+    ],
+    "tomato": [
+      "tomato_raw"
+    ],
+    "vegetable": [
+      "mixed_veg",
+      "bhendi_bhaji",
+      "kobi_bhaji",
+      "carrot_raw",
+      "english_cucumber",
+      "tomato_raw"
+    ],
+    "watermelon": [
+      "watermelon"
+    ],
+    "white_bread": [
+      "white_bread",
+      "pav"
+    ],
+    "yogurt": [
+      "curd",
+      "shrikhand",
+      "chakka",
+      "koshimbir"
+    ]
+  }
+}

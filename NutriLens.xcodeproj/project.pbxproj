@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70FB8A6AD2C90393F6AFF14B /* NutriCore in Frameworks */ = {isa = PBXBuildFile; productRef = 83B304E95044F665C1D5329A /* NutriCore */; };
+		A1C0FFEE000000000000000B /* NutriCore in Frameworks */ = {isa = PBXBuildFile; productRef = A1C0FFEE000000000000000A /* NutriCore */; };
+		A1C0FFEE000000000000000D /* NutriLensWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1C0FFEE0000000000000002 /* NutriLensWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C0FFEE000000000000000E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E328C46A8FE626277BA16A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C0FFEE0000000000000001;
+			remoteInfo = NutriLensWatch;
+		};
+		EDC6860722A1EA3677461F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E328C46A8FE626277BA16A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973DD2D0EE879DB4D4BDE39E;
+			remoteInfo = NutriLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1C0FFEE000000000000000C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A1C0FFEE000000000000000D /* NutriLensWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14EBD775049ABC18318C4F89 /* NutriLens.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriLens.entitlements; sourceTree = "<group>"; };
+		3F226B698E4EFA7E6DB257C4 /* NutriCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NutriCore; path = Packages/NutriCore; sourceTree = "<group>"; };
+		42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		A1C0FFEE0000000000000002 /* NutriLensWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriLensWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C0FFEE0000000000000010 /* NutriLensWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriLensWatch.entitlements; sourceTree = "<group>"; };
+		A1C0FFEE0000000000000011 /* NutriLensWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NutriLensWatch-Info.plist"; sourceTree = "<group>"; };
+		B7BCF614FEE80B28E903C842 /* NutriLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1115296C07E4D1B91FB93F4 /* NutriLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		06DEC306B2B0F9BD17437858 /* NutriLensTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NutriLensTests;
+			sourceTree = "<group>";
+		};
+		0E7D0816A6731882FD364A27 /* NutriLens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NutriLens;
+			sourceTree = "<group>";
+		};
+		A1C0FFEE0000000000000003 /* NutriLensWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NutriLensWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FC08F79BC216AAD7D431B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FB8A6AD2C90393F6AFF14B /* NutriCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7843D23039F08268EE89D106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0FFEE0000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C0FFEE000000000000000B /* NutriCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EBDC0ADAF2CF98E6DF0B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCF614FEE80B28E903C842 /* NutriLens.app */,
+				F1115296C07E4D1B91FB93F4 /* NutriLensTests.xctest */,
+				A1C0FFEE0000000000000002 /* NutriLensWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97794BE81A86A9251FC784A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */,
+				14EBD775049ABC18318C4F89 /* NutriLens.entitlements */,
+				A1C0FFEE0000000000000010 /* NutriLensWatch.entitlements */,
+				A1C0FFEE0000000000000011 /* NutriLensWatch-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D80FDC1691547E6B13F4476D = {
+			isa = PBXGroup;
+			children = (
+				3F226B698E4EFA7E6DB257C4 /* NutriCore */,
+				0E7D0816A6731882FD364A27 /* NutriLens */,
+				06DEC306B2B0F9BD17437858 /* NutriLensTests */,
+				A1C0FFEE0000000000000003 /* NutriLensWatch */,
+				A97794BE81A86A9251FC784A /* Config */,
+				20EBDC0ADAF2CF98E6DF0B67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973DD2D0EE879DB4D4BDE39E /* NutriLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63659EA6991D840DEEDE1A40 /* Build configuration list for PBXNativeTarget "NutriLens" */;
+			buildPhases = (
+				BEF35C9C74C2A7548B4B0B22 /* Sources */,
+				25FC08F79BC216AAD7D431B2 /* Frameworks */,
+				AC2896DC0866F643C67B77A9 /* Resources */,
+				A1C0FFEE000000000000000C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C0FFEE000000000000000F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0E7D0816A6731882FD364A27 /* NutriLens */,
+			);
+			name = NutriLens;
+			packageProductDependencies = (
+				83B304E95044F665C1D5329A /* NutriCore */,
+			);
+			productName = NutriLens;
+			productReference = B7BCF614FEE80B28E903C842 /* NutriLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C0FFEE0000000000000001 /* NutriLensWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C0FFEE0000000000000007 /* Build configuration list for PBXNativeTarget "NutriLensWatch" */;
+			buildPhases = (
+				A1C0FFEE0000000000000005 /* Sources */,
+				A1C0FFEE0000000000000004 /* Frameworks */,
+				A1C0FFEE0000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A1C0FFEE0000000000000003 /* NutriLensWatch */,
+			);
+			name = NutriLensWatch;
+			packageProductDependencies = (
+				A1C0FFEE000000000000000A /* NutriCore */,
+			);
+			productName = NutriLensWatch;
+			productReference = A1C0FFEE0000000000000002 /* NutriLensWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A56698DF27C3043EB94BC727 /* NutriLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A87E61CFA978BF8AF9047E /* Build configuration list for PBXNativeTarget "NutriLensTests" */;
+			buildPhases = (
+				098E51C1A2AC285AA2D1462E /* Sources */,
+				7843D23039F08268EE89D106 /* Frameworks */,
+				65993EF94AEB1CC0D18A9ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425911CFE49A0CF8443845DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				06DEC306B2B0F9BD17437858 /* NutriLensTests */,
+			);
+			name = NutriLensTests;
+			productName = NutriLensTests;
+			productReference = F1115296C07E4D1B91FB93F4 /* NutriLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E328C46A8FE626277BA16A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					973DD2D0EE879DB4D4BDE39E = {
+						CreatedOnToolsVersion = 27.2;
+					};
+					A1C0FFEE0000000000000001 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+					A56698DF27C3043EB94BC727 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = 973DD2D0EE879DB4D4BDE39E;
+					};
+				};
+			};
+			buildConfigurationList = 29CA961AE39F9A5C267CD42D /* Build configuration list for PBXProject "NutriLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80FDC1691547E6B13F4476D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0E4B79C2B05F90867A73997C /* XCLocalSwiftPackageReference "Packages/NutriCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 20EBDC0ADAF2CF98E6DF0B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973DD2D0EE879DB4D4BDE39E /* NutriLens */,
+				A56698DF27C3043EB94BC727 /* NutriLensTests */,
+				A1C0FFEE0000000000000001 /* NutriLensWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65993EF94AEB1CC0D18A9ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0FFEE0000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2896DC0866F643C67B77A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098E51C1A2AC285AA2D1462E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0FFEE0000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF35C9C74C2A7548B4B0B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		425911CFE49A0CF8443845DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 973DD2D0EE879DB4D4BDE39E /* NutriLens */;
+			targetProxy = EDC6860722A1EA3677461F2F /* PBXContainerItemProxy */;
+		};
+		A1C0FFEE000000000000000F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C0FFEE0000000000000001 /* NutriLensWatch */;
+			targetProxy = A1C0FFEE000000000000000E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14EEA8E31379D256C8DA9ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Config/$(NUTRILENS_ENTITLEMENTS_$(ENABLE_CLOUDKIT_SYNC))";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/NutriLens-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NutriLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "NutriLens uses the camera to photograph your meals so it can recognise the food on your iPhone. Photos never leave the device.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "NutriLens reads steps, active and resting energy, workouts, sleep and body measurements to show your calorie balance, training plan and progress, and to keep your iPhone and iPad in step through Apple Health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "NutriLens saves the meals, workouts, sleep and scale readings you log (energy, macros, weight, body fat, BMI, lean mass and waist) to Apple Health.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "NutriLens counts your steps live during indoor walks and walk/jog sessions, to show distance and estimate the energy you used.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).NutriLens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) $(NUTRILENS_SWIFT_FLAGS_$(ENABLE_CLOUDKIT_SYNC))";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E3239BD7A4916614B6331C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).NutriLensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutriLens";
+			};
+			name = Debug;
+		};
+		A1C0FFEE0000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/NutriLensWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/NutriLensWatch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NutriLens;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "NutriLens reads heart rate, active energy, steps and distance during the workouts you run on Apple Watch.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "NutriLens saves the workouts you run on Apple Watch to Apple Health, with heart rate and active energy.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "$(BUNDLE_ID_PREFIX).NutriLens";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).NutriLens.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		A1C0FFEE0000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/NutriLensWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/NutriLensWatch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NutriLens;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "NutriLens reads heart rate, active energy, steps and distance during the workouts you run on Apple Watch.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "NutriLens saves the workouts you run on Apple Watch to Apple Health, with heart rate and active energy.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "$(BUNDLE_ID_PREFIX).NutriLens";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).NutriLens.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		A23FD7B40571B574D11D1270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).NutriLensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutriLens";
+			};
+			name = Release;
+		};
+		B53263D2FFA8D95F43319E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5EC3E26B9B56811BDEB652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E6D5FA6777AC3853E72F38B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABEFD6AE8CDB9DD778084 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Config/$(NUTRILENS_ENTITLEMENTS_$(ENABLE_CLOUDKIT_SYNC))";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/NutriLens-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NutriLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "NutriLens uses the camera to photograph your meals so it can recognise the food on your iPhone. Photos never leave the device.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "NutriLens reads steps, active and resting energy, workouts, sleep and body measurements to show your calorie balance, training plan and progress, and to keep your iPhone and iPad in step through Apple Health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "NutriLens saves the meals, workouts, sleep and scale readings you log (energy, macros, weight, body fat, BMI, lean mass and waist) to Apple Health.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "NutriLens counts your steps live during indoor walks and walk/jog sessions, to show distance and estimate the energy you used.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).NutriLens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) $(NUTRILENS_SWIFT_FLAGS_$(ENABLE_CLOUDKIT_SYNC))";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CA961AE39F9A5C267CD42D /* Build configuration list for PBXProject "NutriLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5EC3E26B9B56811BDEB652 /* Debug */,
+				B53263D2FFA8D95F43319E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63659EA6991D840DEEDE1A40 /* Build configuration list for PBXNativeTarget "NutriLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D5FA6777AC3853E72F38B8 /* Debug */,
+				14EEA8E31379D256C8DA9ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A87E61CFA978BF8AF9047E /* Build configuration list for PBXNativeTarget "NutriLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3239BD7A4916614B6331C4 /* Debug */,
+				A23FD7B40571B574D11D1270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C0FFEE0000000000000007 /* Build configuration list for PBXNativeTarget "NutriLensWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C0FFEE0000000000000008 /* Debug */,
+				A1C0FFEE0000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0E4B79C2B05F90867A73997C /* XCLocalSwiftPackageReference "Packages/NutriCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/NutriCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83B304E95044F665C1D5329A /* NutriCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NutriCore;
+		};
+		A1C0FFEE000000000000000A /* NutriCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E4B79C2B05F90867A73997C /* XCLocalSwiftPackageReference "Packages/NutriCore" */;
+			productName = NutriCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0E328C46A8FE626277BA16A8 /* Project object */;
+}

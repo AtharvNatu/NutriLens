@@ -1,0 +1,26 @@
+// Signing settings shared by the app and test targets.
+//
+// To install on your own iPhone/iPad with a free Apple ID (see README.md):
+//   * either pick your "Personal Team" in Xcode > target > Signing & Capabilities, or
+//   * create Config/Signing.local.xcconfig (not required for the Simulator) containing e.g.
+//       DEVELOPMENT_TEAM = ABCDE12345
+//       BUNDLE_ID_PREFIX = com.yourname
+//
+// Free (Personal Team) accounts need a bundle identifier nobody else has registered,
+// so change BUNDLE_ID_PREFIX to something unique to you.
+
+BUNDLE_ID_PREFIX = com.example
+DEVELOPMENT_TEAM =
+
+// iCloud (CloudKit) sync of the app's own data between your devices.
+// Needs a paid Apple Developer Program membership: iCloud isn't available to Personal Teams.
+// Until then NutriLens syncs through Apple Health's own iCloud sync (see README).
+// After upgrading, set ENABLE_CLOUDKIT_SYNC = YES (ideally in Signing.local.xcconfig).
+ENABLE_CLOUDKIT_SYNC = NO
+
+NUTRILENS_ENTITLEMENTS_NO = NutriLens.entitlements
+NUTRILENS_ENTITLEMENTS_YES = NutriLens-CloudKit.entitlements
+NUTRILENS_SWIFT_FLAGS_NO =
+NUTRILENS_SWIFT_FLAGS_YES = CLOUDKIT_SYNC
+
+#include? "Signing.local.xcconfig"
